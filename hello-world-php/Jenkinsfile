@@ -1,0 +1,15 @@
+pipeline {
+    agent any
+    stages {
+        stage('build docker image') {
+            steps {
+                sh 'docker build -t hello-world-php .'
+            }
+        }
+    }
+    post { 
+        always {
+            echo 'Process finished'
+        }
+    }
+}
