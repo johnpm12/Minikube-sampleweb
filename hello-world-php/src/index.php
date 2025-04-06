@@ -1,3 +1,3 @@
 <?php
-echo "Hello AI&DS! Greeting from ".gethostname()."\n";
+echo "Hello MTech! Greeting from ".gethostname()."\n";
 ?>
